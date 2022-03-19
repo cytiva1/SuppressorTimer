@@ -1,10 +1,5 @@
 let counterEl = document.getElementById('timePassed');
 
-let facts = [
-        "Russia has invaded Ukraine",
-        "Texas enacted a law to ban abortion after 6 weeks of gestation"
-]
-
 function myFunc() {
     let time = Date.now() - 1617914597267;
     let seconds = Math.floor(time / 1000);
