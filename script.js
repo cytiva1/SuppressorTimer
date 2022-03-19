@@ -18,9 +18,6 @@ function myFunc() {
     Hours: ${hours} 
     Minutes: ${minutes} 
     Seconds: ${seconds}
-    
-    Fun Facts:
-    Since then the moon has orbited earth about ${moonOrbitsApprox} times.
     `;
 }
 
