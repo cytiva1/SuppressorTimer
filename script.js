@@ -11,7 +11,7 @@ function myFunc() {
     let minutes = Math.floor(seconds / 60);
     let hours = Math.floor(minutes / 60);
     let days = Math.floor(hours / 24);
-    let moonOrbitsApprox = Math.floor(days / 27.32)
+    let moonOrbitsApprox = (days / 27.32).toFixed(2)
     
     counterEl.innerText = `Time Taco has spent waiting for a suppressor...
     Days: ${days}
