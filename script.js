@@ -9,8 +9,7 @@ function myFunc() {
     // setTimeout(() => {
     //     myFunc();
     // }, 1000)
-    counterEl.innerText = `Time Taco has spent waiting for a Suppressor calculated in.....
-    Days: ${days}
+    counterEl.innerText = `Days: ${days}
     Hours: ${hours} 
     Minutes: ${minutes} 
     Seconds: ${seconds}`;
