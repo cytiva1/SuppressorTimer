@@ -24,4 +24,7 @@ while(true){
     updateTime(),
     1000
   )
+  setTimeout(() => {
+    console.log(now.getTime())
+  }, 1000
 }
