@@ -20,7 +20,7 @@ function updateTime() = {
 }
 
 while(true){
-  setTimeout(
+  setInterval(
     updateTime();
   }, 1000)
 }
