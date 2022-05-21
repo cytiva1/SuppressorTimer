@@ -2,7 +2,7 @@ let counterEl = document.getElementById('timePassed');
 
 let d = new Date('May 18, 22 12:29:00 GMT+00:00');
 
-function updateTime() {
+const updateTime = function() {
 
   let now = new Date();
   let time = now.getTime() - d.getTime();
@@ -19,9 +19,8 @@ function updateTime() {
   Seconds: ${seconds.toLocaleString()}
   `;
 }
+setInterval(
+  updateTime(),
+  1000
+)
 
-while(true){
-  setInterval(
-    updateTime();
-  }, 1000)
-}
