@@ -19,8 +19,9 @@ const updateTime = function() {
   Seconds: ${seconds.toLocaleString()}
   `;
 }
-setInterval(
-  updateTime(),
-  1000
-)
-
+while(true){
+  setInterval(
+    updateTime(),
+    1000
+  )
+}
