@@ -2,6 +2,7 @@ let counterEl = document.getElementById('timePassed');
 
 let d = new Date('May 18, 22 12:29:00 GMT+00:00');
 
+while(true){
 setTimeout(() => {
   let now = new Date();
   let time = now.getTime() - d.getTime() ;
@@ -18,4 +19,4 @@ setTimeout(() => {
   Seconds: ${seconds.toLocaleString()}
   `;
 }, "1000")
-
+}
